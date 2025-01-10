@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Edgar Cisneros Barron: Personal Site and portfolio"</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
 </head>
 <body>
     <nav>
@@ -15,10 +14,18 @@
             <li><a href="https://github.com/Excalibean">GitHub</a></li>
         </ul>
     </nav>
-    <h1>Edgar Cisneros Barron</h1>
-    <p1>Hello! I'm a Data Science major at UC San Diego. I enjoy video games, model kit building, card games, and other nerd hobbies.
-        I also enjoy fiddling and learning about tech related topics.
-    </p1>  
-    <img src="images/dino_card.png" alt="Doodle Beast - Stego game card">
+    <h1>Contact</h1>
+    <form action="mailto:ecisnerosbarron@ucsd.edu" method="post" enctype="text/plain">
+        <label> Your email:
+            <input type="email" name="email">
+        </label>
+        <label> Subject:
+            <input type="text" name="subject">
+        </label>
+        <label> Message:
+            <textarea name="body"></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
