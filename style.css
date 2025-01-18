@@ -18,7 +18,7 @@ h1 {
   font-size: 250%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 { /* Learning html interpretation:  h1 OR h2 OR... */
   line-height: 1.1;
   text-wrap: balance;
 }
@@ -72,12 +72,12 @@ nav a {
   border-bottom-color: oklch(80% 3% 200);
 }
 
-nav a.current{
+nav a.current{    /* Learning html interpretation: nav a AND current */
   font-weight: bold;
   border-bottom-width: 0.4em;
 }
 
-nav a:hover {
+nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class: only applies when situation arises. This case, when mouse hovers) */
   border-bottom-width: 0.4em;
   border-bottom-color: var(--color-accent);
   background-color: oklch(from var(--color-accent) 95% 5% h);
@@ -100,3 +100,29 @@ nav a:hover {
 .projects h2 {
   margin: 0;
 }
+
+/* CV Page Styling */
+.cv h1{
+  margin-bottom: 0.5em;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color:turquoise;
+}
+.cv h2 { /* CV Section Headers*/
+  margin-bottom: 0.5em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+  }
+
+  .cv h3{ /* CV Subsection/Item Headers */
+    margin-bottom: 0.2em;
+  }
+
+  .cv article{ /* CV Subsection/Item Headers with Paragraphs */
+    line-height: 1.25;
+  }
+  .cv li{ /* CV List Items */
+    margin-bottom: 0.5em;
+    list-style: circle;
+  }
