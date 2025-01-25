@@ -51,30 +51,27 @@ document.body.insertAdjacentHTML(
     setColorScheme(event.target.value);
   });
 
-//Automatic Navigation Page
+// Automatic Navigation Page
 let pages = [
-    { url: '../', title: 'Home' },
-    { url: 'projects/', title: 'Projects' },
-    { url: 'CV/', title: 'Resume'},
-    { url: 'contact/', title: 'Contact' },
+    { url: '/', title: 'Home' },
+    { url: '/projects/', title: 'Projects' },
+    { url: '/CV/', title: 'Resume' },
+    { url: '/contact/', title: 'Contact' },
     { url: 'https://github.com/Excalibean', title: 'Github' },
   ];
-let nav = document.createElement('nav');
-document.body.prepend(nav);
-const ARE_WE_HOME = document.documentElement.classList.contains('home');
-
-for (let p of pages) {
+  
+  let nav = document.createElement('nav');
+  document.body.prepend(nav);
+  
+  for (let p of pages) {
     let url = p.url;
-    if (!ARE_WE_HOME && !url.startsWith('http')) {
-        url = '../' + url;
-      }
-      let title = p.title;
-      let a = document.createElement('a');
-      a.href = url;
-      a.textContent = title;
-      nav.append(a);
-      if (a.host === location.host && a.pathname === location.pathname) {
-        a.classList.add('current');
-      }
+    let title = p.title;
+    let a = document.createElement('a');
+    a.href = url;
+    a.textContent = title;
+    nav.append(a);
+    if (a.host === location.host && a.pathname === location.pathname) {
+      a.classList.add('current');
     }
+  }
   
