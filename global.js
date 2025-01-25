@@ -53,7 +53,7 @@ document.body.insertAdjacentHTML(
 
 //Automatic Navigation Page
 let pages = [
-    { url: '', title: 'Home' },
+    { url: '/', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'CV/', title: 'Resume'},
     { url: 'contact/', title: 'Contact' },
@@ -66,7 +66,7 @@ const ARE_WE_HOME = document.documentElement.classList.contains('home');
 for (let p of pages) {
     let url = p.url;
     if (!ARE_WE_HOME && !url.startsWith('http')) {
-        url = '../' + url;
+        url = '../' + url + 'index.html';
       }
       let title = p.title;
       let a = document.createElement('a');
