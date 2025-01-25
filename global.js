@@ -53,7 +53,7 @@ document.body.insertAdjacentHTML(
 
 //Automatic Navigation Page
 let pages = [
-    { url: '/', title: 'Home' },
+    { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'CV/', title: 'Resume'},
     { url: 'contact/', title: 'Contact' },
