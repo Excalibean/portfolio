@@ -52,8 +52,9 @@ document.body.insertAdjacentHTML(
   });
 
 //Automatic Navigation Page
+const ARE_WE_HOME = document.documentElement.classList.contains('home');
 let pages = [
-    { url: '', title: 'Home' },
+    { url: ARE_WE_HOME ? '' : '/', title: 'Home'  },
     { url: 'projects/', title: 'Projects' },
     { url: 'CV/', title: 'Resume'},
     { url: 'contact/', title: 'Contact' },
@@ -61,7 +62,6 @@ let pages = [
   ];
 let nav = document.createElement('nav');
 document.body.prepend(nav);
-const ARE_WE_HOME = document.documentElement.classList.contains('home');
 
 for (let p of pages) {
     let url = p.url;
