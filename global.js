@@ -51,28 +51,31 @@ document.body.insertAdjacentHTML(
     setColorScheme(event.target.value);
   });
 
-//Automatic Navigation Page
+// Automatic Navigation Page
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
 let pages = [
-    { url: '', title: 'Home'  },
-    { url: 'projects/', title: 'Projects' },
-    { url: 'CV/', title: 'Resume'},
-    { url: 'contact/', title: 'Contact' },
-    { url: 'https://github.com/Excalibean', title: 'Github' },
-  ];
+  { url: ARE_WE_HOME ? 'index.html' : '/', title: 'Home' },
+  { url: 'projects/index.html', title: 'Projects' },
+  { url: 'CV/index.html', title: 'Resume' },
+  { url: 'contact/index.html', title: 'Contact' },
+  { url: 'https://github.com/Excalibean', title: 'Github' },
+];
+
 let nav = document.createElement('nav');
 document.body.prepend(nav);
 
 for (let p of pages) {
     let url = p.url;
-    url = !ARE_WE_HOME && !url.startsWith('http') ? '../' + url : url;
-      let title = p.title;
-      let a = document.createElement('a');
-      a.href = url;
-      a.textContent = title;
-      nav.append(a);
-      if (a.host === location.host && a.pathname === location.pathname) {
-        a.classList.add('current');
-      }
+    if (!ARE_WE_HOME && !url.startsWith('http')) {
+      url = '../' + url.replace(/^\//, ''); // Remove leading slash if present
     }
+    let title = p.title;
+    let a = document.createElement('a');
+    a.href = url;
+    a.textContent = title;
+    nav.append(a);
+    if (a.host === location.host && a.pathname === location.pathname) {
+      a.classList.add('current');
+    }
+  }
   
