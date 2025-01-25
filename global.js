@@ -54,7 +54,7 @@ document.body.insertAdjacentHTML(
 //Automatic Navigation Page
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
 let pages = [
-    { url: ARE_WE_HOME ? '' : '/', title: 'Home'  },
+    { url: '', title: 'Home'  },
     { url: 'projects/', title: 'Projects' },
     { url: 'CV/', title: 'Resume'},
     { url: 'contact/', title: 'Contact' },
