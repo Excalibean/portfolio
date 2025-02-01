@@ -147,3 +147,32 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
   margin-left: 0.4em;
   }
 }
+
+/*Profile Stats*/
+#profile-stats {
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-stats-content {
+
+  dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 0;
+  }
+
+  dt {
+    font-weight: bold;
+    grid-row: 1;
+  }
+
+  dd {
+    margin: 0 0 1em 0;
+    grid-row: 2;
+  }
+}
