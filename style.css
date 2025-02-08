@@ -182,11 +182,14 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
   grid-template-columns: 1fr 1fr;
   gap: 1em;
 }
-#projects-pie-plot {
+#projects-plot {
   max-width: 20em;
   margin-block: 2em;
-
   overflow: visible;
+}
+
+#projects-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
 }
 
 .legend {
@@ -215,7 +218,11 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
   aspect-ratio: 1 / 1;
   background-color: var(--color);
   border-radius: 0.25em;
-  display: flex;
+  
+}
+
+.legend-item.selected {
+  --color: oklch(60% 45% 0) !important;
 }
 
 /* SVG Styling */
@@ -227,12 +234,13 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
 
 path {
     transition: 300ms;
+    cursor: pointer;
 }
 
 .selected {
   --color: oklch(60% 45% 0) !important;
-  
-  &:is(path) {
-    fill: var(--color);
-  }
+}
+
+.selected path {
+  fill: var(--color);
 }
