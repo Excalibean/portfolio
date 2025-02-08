@@ -176,3 +176,63 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
     grid-row: 2;
   }
 }
+
+.container {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.legend {
+  display: grid;
+  flex: 1;
+  align-items: center; 
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 2em 0;
+  border: 1px solid #ddd;
+  border-radius: 0.5em;
+  background-color: #f9f9f9;
+}
+
+.legend li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.legend .swatch {
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 0.25em;
+  display: flex;
+}
+
+/* SVG Styling */
+&:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+}
+
+path {
+    transition: 300ms;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+  
+  &:is(path) {
+    fill: var(--color);
+  }
+}
