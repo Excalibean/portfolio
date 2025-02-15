@@ -295,12 +295,16 @@ circle.selected {
 
 /*Meta Page: div id = "stats" styling*/
 #stats {
-  display: grid;
+  display: flexbox;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 1em;
   padding: 0.01em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 0.6em;
+}
+#stats h1 {
+  font-size: 1.5em;
+  margin: 0;
 }
 #stats dt {
   font-weight: bold;
