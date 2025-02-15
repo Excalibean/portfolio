@@ -58,6 +58,7 @@ let pages = [
   { url: 'projects/index.html', title: 'Projects' },
   { url: 'CV/index.html', title: 'Resume' },
   { url: 'contact/index.html', title: 'Contact' },
+  { url: 'meta/index.html', title: 'Meta' },
   { url: 'https://github.com/Excalibean', title: 'Github' },
 ];
 
