@@ -1,4 +1,11 @@
-[
+[   
+    {  
+        "title": "Bike Paths in Boston",
+        "year": "2025",
+        "image": "../images/bike_paths_image.png",
+        "url": "https://excalibean.github.io/Bike-Paths/",
+        "description": "A bike path and station mapping of bike traffic in Boston and Cambridge area of the US."
+    },
     {  
         "title": "Lorem ipsum dolor sit.",
         "year": "2024",
