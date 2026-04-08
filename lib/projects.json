@@ -2,35 +2,35 @@
     {  
         "title": "DSC Major Capstone Project: Scrolling Through Sound with Multiple User Interfaces.",
         "year": "2026",
-        "image": "portfolio/images/capstone-project.png",
+        "image": "../images/capstone-project.png",
         "url": "https://timothymao.github.io/DSC-Capstone-Website/",
         "description": "An audio player allowing users to scroll through sound with multiple features such as touch controls, camera based hand gestures, and AI transcription working on both Desktop and Mobile. This project was done in collaboration with 5 other students under the mentorship of Victor Minces and Virgina De Sa at UC San Diego."
     },
     {
         "title": "Neurological Diseases and Their Effects on Gait: The Hidden Language of Moving",
         "year": "2025",
-        "image": "portfolio/images/gait-visualization.png",
+        "image": "../images/gait-visualization.png",
         "url": "https://excalibean.github.io/Neuro-Disease-Effects-on-Gait-Visualization/",
         "description": "A visualization project exploring the effects of neurological diseases on walking patterns using patient gait data. This course project was done for DSC 106 in collaboration with Imangali Imangeldi & Leah Seseri at UC San Diego."
     },
         {  
         "title": "Bike Paths in Boston",
         "year": "2025",
-        "image": "portfolio/images/bike_paths_image.png",
+        "image": "../images/bike_paths_image.png",
         "url": "https://excalibean.github.io/Bike-Paths/",
         "description": "A bike path and station mapping of bike traffic in Boston and Cambridge area of the US."
     },
     {
         "title": "Web Audioplayer - Touch Controls.",
         "year": "2025",
-        "image": "portfolio/images/touch-audio-player.png",
+        "image": "../images/touch-audio-player.png",
         "url": "https://excalibean.github.io/web-audio-interface-touchscreen/",
         "description": "A web-based audio player designed towork with touch controls with a rewind feature that plays 2 second chunks in forward playback continously for seamless audio scrubbing. In collaboration with Justin Lu at UC San Diego as a preliminary project for the Data Science Major Capstone Project."
     },
     {  
         "title": "A League of Legends Analysis: From a Team Contribution Perspective",
         "year": "2024",
-        "image": "portfolio/images/league-analysis.png",
+        "image": "../images/league-analysis.png",
         "url": "https://excalibean.github.io/A-League-of-Legends-Analysis/",
         "description": "An analysis of team contributions in League of Legends, focusing on player performance and impact. This was a course project for DSC 80 at UC San Diego."
     },
