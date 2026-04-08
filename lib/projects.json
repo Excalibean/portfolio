@@ -1,81 +1,44 @@
 [   
     {  
+        "title": "DSC Major Capstone Project: Scrolling Through Sound with Multiple User Interfaces.",
+        "year": "2026",
+        "image": "../images/capstone-project.png",
+        "url": "https://timothymao.github.io/DSC-Capstone-Website/",
+        "description": "An audio player allowing users to scroll through sound with multiple features such as touch controls, camera based hand gestures, and AI transcription working on both Desktop and Mobile. This project was done in collaboration with 5 other students under the mentorship of Victor Minces and Virgina De Sa at UC San Diego."
+    },
+    {
+        "title": "Neurological Diseases and Their Effects on Gait: The Hidden Language of Moving",
+        "year": "2025",
+        "image": "../images/gait-visualization.png",
+        "url": "https://excalibean.github.io/Neuro-Disease-Effects-on-Gait-Visualization/",
+        "description": "A visualization project exploring the effects of neurological diseases on walking patterns using patient gait data. This course project was done for DSC 106 in collaboration with Imangali Imangeldi & Leah Seseri at UC San Diego."
+    },
+        {  
         "title": "Bike Paths in Boston",
         "year": "2025",
         "image": "../images/bike_paths_image.png",
         "url": "https://excalibean.github.io/Bike-Paths/",
         "description": "A bike path and station mapping of bike traffic in Boston and Cambridge area of the US."
     },
-    {  
-        "title": "Lorem ipsum dolor sit.",
-        "year": "2024",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-    },
     {
-        "title": "Quae corrupti eum ullam.",
+        "title": "Web Audioplayer - Touch Controls.",
         "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Doloribus nesciunt exercitationem sequi at, alias sunt fuga obcaecati corrupti non. Soluta, quia excepturi. Harum ratione reiciendis nam, doloribus distinctio quia minima libero. Officiis iure nihil excepturi aliquam nostrum libero?"
+        "image": "../images/touch-audio-player.png",
+        "url": "https://excalibean.github.io/web-audio-interface-touchscreen/",
+        "description": "A web-based audio player designed towork with touch controls with a rewind feature that plays 2 second chunks in forward playback continously for seamless audio scrubbing. In collaboration with Justin Lu at UC San Diego as a preliminary project for the Data Science Major Capstone Project."
+    },
+    {  
+        "title": "A League of Legends Analysis: From a Team Contribution Perspective",
+        "year": "2024",
+        "image": "../images/league-analysis.png",
+        "url": "https://excalibean.github.io/A-League-of-Legends-Analysis/",
+        "description": "An analysis of team contributions in League of Legends, focusing on player performance and impact. This was a course project for DSC 80 at UC San Diego."
     },
     {
-        "title": "Eaque blanditiis dolore voluptates.",
-        "year": "2018",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Velit, ab praesentium voluptatem dolore labore eos cumque, unde libero quia doloribus quisquam commodi enim, culpa aspernatur repellat. Ipsa aliquam officiis consectetur labore distinctio magnam explicabo corporis culpa, hic voluptas?"
-    },
-    {
-        "title": "Impedit et a ullam.",
-        "year": "2019",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Magnam distinctio possimus ut ratione sapiente eius debitis laboriosam laudantium molestias quae, ab quibusdam doloribus. Hic quibusdam error ex vitae voluptatibus qui voluptatem facere accusamus, perferendis enim a iste laboriosam."
-    },
-    {
-        "title": "Omnis quasi expedita in!",
+        "title": "Omnis placeholder quasi expedita in!",
         "year": "2020",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "https://checkboxrace.com/",
         "description": "Quam iusto voluptatum laboriosam saepe laborum asperiores. Repudiandae blanditiis hic sed suscipit in possimus, odit architecto nostrum exercitationem velit, vitae dolor molestiae iste harum accusamus necessitatibus! Asperiores, quas culpa. Molestias!"
-    },
-    {
-        "title": "Ipsum harum iste corrupti.",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quasi asperiores, odio nostrum ea enim iste tenetur, eveniet reprehenderit, facilis autem consectetur quidem excepturi placeat cum. Ullam, excepturi doloremque? Id cupiditate illum unde vitae quia, animi quisquam corporis velit!"
-    },
-    {
-        "title": "Nesciunt quidem culpa sint!",
-        "year": "2017",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quia magnam tempora reiciendis ut nisi quas debitis molestiae voluptatum doloribus hic? Esse repudiandae cum cumque fugit. Perferendis, tempore veritatis alias beatae a molestias suscipit quae ipsum? Iure, provident labore."
-    },
-    {
-        "title": "Dolore provident tempore magni!",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero illum nam quas nulla voluptatibus non ipsam reprehenderit ratione rem blanditiis eligendi veniam neque temporibus eum, sunt laborum numquam architecto qui libero beatae, cupiditate nisi aliquam sapiente accusantium? Et?"
-    },
-    {
-        "title": "Distinctio, ad. Reiciendis, harum!",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quam iusto sequi, consequatur vel deserunt aperiam, quasi fugit labore quidem voluptates minus? Est saepe a, unde maiores, fuga fugit molestias dolorum officia velit pariatur adipisci laboriosam vel minus veniam."
-    },
-    {
-        "title": "Ea earum numquam omnis.",
-        "year": "2021",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Alias omnis consequatur iure vero quisquam, beatae, hic ducimus doloremque animi tempora repellendus magni modi, unde quasi aliquid ipsam voluptate esse dolore! Eligendi ad suscipit quibusdam quia, officiis iusto sapiente."
-    },
-    {
-        "title": "Nihil maxime aspernatur officia.",
-        "year": "2022",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Illum, iure deserunt! Nihil voluptates quisquam aliquam magnam distinctio perferendis quasi asperiores. Saepe eaque facere quasi totam odit perferendis doloremque debitis enim cumque. Mollitia voluptatum dolorum sit nisi, veniam et."
-    },
-    {
-        "title": "Blanditiis unde culpa laboriosam?",
-        "year": "2022",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Modi, velit quam! Quaerat similique quasi est temporibus minus. A vitae perferendis quisquam! Ad, doloribus, consequuntur amet harum ipsum perferendis aut omnis animi eveniet delectus molestias, voluptate quasi maiores nobis."
     }
 ]

@@ -103,7 +103,7 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
   projects.forEach(project => {
     const article = document.createElement('article');
     article.innerHTML = `
-      <a href="https://excalibean.github.io/Bike-Paths/" target="_blank">
+      <a href="${project.url}" target="_blank">
         <h3>${project.title}</h3>
       </a>
       <img src="${project.image}" alt="${project.title}">
