@@ -24,6 +24,23 @@ h1, h2, h3, h4, h5, h6 { /* Learning html interpretation:  h1 OR h2 OR... */
   text-wrap: balance;
 }
 
+/* Home Page Style */
+.intro-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Space between image and text */
+}
+
+.intro-container img {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+}
+
+.intro-container p1 {
+  flex: 1;
+}
+
 /*Edit Contact Forms*/
 input, textarea, button {
   /* Use the OS’s UI font for form elements */

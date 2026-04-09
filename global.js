@@ -57,9 +57,9 @@ let pages = [
   { url: ARE_WE_HOME ? 'index.html' : '/', title: 'Home' },
   { url: 'projects/index.html', title: 'Projects' },
   { url: 'CV/index.html', title: 'Resume' },
-  { url: 'contact/index.html', title: 'Contact' },
-  { url: 'meta/index.html', title: 'Meta' },
-  { url: 'https://github.com/Excalibean', title: 'Github' },
+  { url: 'https://www.linkedin.com/in/edgar-cisneros-barron-b77780390/', title: 'LinkedIn' },
+    { url: 'https://github.com/Excalibean', title: 'Github' },
+  { url: 'meta/index.html', title: 'MetaData' }
 ];
 
 let nav = document.createElement('nav');
