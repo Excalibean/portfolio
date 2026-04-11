@@ -175,11 +175,19 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
 /*Profile Stats*/
 #profile-stats {
   padding: 1em;
-  background-color: light-dark(#f9f9f9, #1e1e1e);
-  color: light-dark(#333, #f0f0f0);
-  border: 1px solid light-dark(#ddd, #444);
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ddd;
   border-radius: 0.5em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  #profile-stats {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #444;
+  }
 }
 
 .profile-stats-content {
@@ -225,10 +233,18 @@ nav a:hover {    /* Learning html interpretation: nav a AND hover (pseudo-class:
   gap: 1em;
   padding: 1em;
   margin: 2em 0;
-  border: 1px solid light-dark(#ddd, #444);
+  border: 1px solid #ddd;
   border-radius: 0.5em;
-  background-color: light-dark(#f9f9f9, #1e1e1e);
-  color: light-dark(#333, #f0f0f0);
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  .legend {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #444;
+  }
 }
 
 .legend li {
