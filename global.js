@@ -36,7 +36,7 @@ document.body.insertAdjacentHTML(
       </select>
     </label>`
   );
-  
+
   const colorSchemeSelect = document.getElementById('color-scheme-select');
   
   // Load user preference from localStorage if available
