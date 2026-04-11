@@ -102,11 +102,16 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
   containerElement.innerHTML = '';
   projects.forEach(project => {
     const article = document.createElement('article');
+    // Adjust image path based on current page depth
+    let imageSrc = project.image;
+    if (!ARE_WE_HOME && !imageSrc.startsWith('http') && !imageSrc.startsWith('/')) {
+      imageSrc = '../' + imageSrc;
+    }
     article.innerHTML = `
       <a href="${project.url}" target="_blank">
         <h3>${project.title}</h3>
       </a>
-      <img src="${project.image}" alt="${project.title}">
+      <img src="${imageSrc}" alt="${project.title}">
       <div>
       <p>${project.description}</p>
       ${project.year}
